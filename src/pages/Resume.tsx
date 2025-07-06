@@ -1,17 +1,13 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Download, Mail, Phone, Linkedin, Github, MapPin } from "lucide-react";
 import Navigation from "@/components/Navigation";
-
 const Resume = () => {
   const handleDownloadResume = () => {
     // This would trigger download of the actual PDF resume
     console.log("Downloading resume...");
   };
-
-  return (
-    <div className="min-h-screen bg-gray-900 text-white">
+  return <div className="min-h-screen bg-gray-900 text-white">
       <Navigation />
       <div className="pt-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
@@ -20,10 +16,7 @@ const Resume = () => {
             <h1 className="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               Resume
             </h1>
-            <Button 
-              onClick={handleDownloadResume}
-              className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105"
-            >
+            <Button onClick={handleDownloadResume} className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105">
               <Download size={20} className="mr-2" />
               Download PDF
             </Button>
@@ -39,7 +32,7 @@ const Resume = () => {
               <div className="grid md:grid-cols-2 gap-4">
                 <div className="flex items-center space-x-3">
                   <Mail size={18} className="text-blue-400" />
-                  <span>telukuntlasaishma@gmail.com</span>
+                  <span className="text-sky-200">telukuntlasaishma@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone size={18} className="text-green-400" />
@@ -186,8 +179,6 @@ const Resume = () => {
           </Card>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Resume;
