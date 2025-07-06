@@ -1,11 +1,9 @@
-
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, Phone } from "lucide-react";
 
 const Hero = () => {
   const handleResumeClick = () => {
-    // This would open the PDF resume
-    console.log("Opening resume...");
+    window.location.href = "/resume";
   };
 
   const handleContactClick = () => {
