@@ -44,7 +44,7 @@ const Resume = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Github size={18} className="text-purple-400" />
-                  <span>github.com/TelukuntlaSaishma</span>
+                  <span className="text-sky-200">github.com/TelukuntlaSaishma</span>
                 </div>
               </div>
             </CardContent>
