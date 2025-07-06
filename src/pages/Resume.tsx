@@ -25,7 +25,7 @@ const Resume = () => {
           {/* Contact Information */}
           <Card className="backdrop-blur-md bg-white/5 border-white/10 mb-8">
             <CardHeader>
-              <CardTitle className="text-2xl text-center">Telukuntla Saishma</CardTitle>
+              <CardTitle className="text-2xl text-center text-sky-200">Telukuntla Saishma</CardTitle>
               <p className="text-center text-lg text-gray-300">Full Stack Developer | AI/ML Enthusiast</p>
             </CardHeader>
             <CardContent>
