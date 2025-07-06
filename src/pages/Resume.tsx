@@ -40,7 +40,7 @@ const Resume = () => {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Linkedin size={18} className="text-blue-400" />
-                  <span>linkedin.com/in/saishma-telukuntla</span>
+                  <span className="text-sky-200">linkedin.com/in/saishma-telukuntla</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Github size={18} className="text-purple-400" />
